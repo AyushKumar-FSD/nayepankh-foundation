@@ -1029,11 +1029,20 @@ img {
   .about-image-wrapper {
     order: -1;
   }
-  
+   
   .carousel-slide {
     flex-direction: column;
   }
-  
+
+  .carousel-img-side {
+    width: 100%;
+    min-height: 250px;
+    flex: none;
+    display: block;
+    background-size: cover;
+    background-position: center;
+  }
+
   .carousel-content-side {
     padding: 32px;
   }
