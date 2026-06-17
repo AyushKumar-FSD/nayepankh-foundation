@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code for the official website of **NayePankh Foundation**, a registered non-governmental organization (NGO) working towards education, healthcare, hygiene awareness, women empowerment and social welfare initiatives across India.
+This repository contains the source code for the sample official website of **NayePankh Foundation**, a registered non-governmental organization (NGO) working towards education, healthcare, hygiene awareness, women empowerment and social welfare initiatives across India.
 
 The website has been redesigned and modernized to provide a more engaging, responsive and user-friendly experience for visitors, donors, volunteers and supporters.
 
