@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains the source code for the official website of **NayePankh Foundation**, a registered non-governmental organization (NGO) working towards education, healthcare, hygiene awareness, women empowerment, and social welfare initiatives across India.
+This repository contains the source code for the official website of **NayePankh Foundation**, a registered non-governmental organization (NGO) working towards education, healthcare, hygiene awareness, women empowerment and social welfare initiatives across India.
 
-The website has been redesigned and modernized to provide a more engaging, responsive, and user-friendly experience for visitors, donors, volunteers, and supporters.
+The website has been redesigned and modernized to provide a more engaging, responsive and user-friendly experience for visitors, donors, volunteers and supporters.
 
 ---
 
@@ -16,7 +16,7 @@ The objective of this project is to:
 * Create a modern and responsive user interface.
 * Enhance user experience across desktop and mobile devices.
 * Present organizational information in a clear and professional manner.
-* Improve accessibility to donation, contact, certification, and policy information.
+* Improve accessibility to donation, contact, certification and policy information.
 
 ---
 
@@ -34,7 +34,7 @@ My responsibilities included:
 * Organizing content and improving readability
 * Preparing the website for public deployment
 
-> Note: NayePankh Foundation owns all organizational content, branding, certifications, images, and intellectual property displayed on this website. This repository showcases the website implementation and redesign work completed during the internship.
+> Note: NayePankh Foundation owns all organizational content, branding, certifications, images and intellectual property displayed on this website. This repository showcases the website implementation and redesign work completed during the internship.
 
 ---
 
@@ -197,7 +197,7 @@ The website is designed to help:
 
 This repository was created for educational and professional internship purposes.
 
-All NGO-related content, logos, certificates, photographs, organizational information, and branding belong to **NayePankh Foundation** and are used solely for website development and presentation purposes.
+All NGO-related content, logos, certificates, photographs, organizational information and branding belong to **NayePankh Foundation** and are used solely for website development and presentation purposes.
 
 No ownership claim is made over the organization's intellectual property.
 
@@ -219,4 +219,4 @@ Website Redesign & Frontend Development
 
 **Ayush Kumar**
 
-Internship Project • 2025
+Internship Project • 2026
