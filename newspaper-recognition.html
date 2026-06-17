@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsPaper-Recognition | NayePankh Foundation | GOVT. REG. NGO</title>
+  <meta name="description" content="Read what leading newspapers and media houses say about NayePankh Foundation's impact and campaigns.">
+  
+  <!-- Favicons -->
+  <link rel="icon" size="16x16" href="assets/logo-AVLW2LLWZkI8v845.png">
+  <link rel="icon" size="32x32" href="assets/logo-AVLW2LLWZkI8v845.png">
+  <link rel="icon" size="192x192" href="assets/logo-AVLW2LLWZkI8v845.png">
+  <link rel="apple-touch-icon" href="assets/logo-AVLW2LLWZkI8v845.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- Sticky Glassmorphism Header -->
+  <header class="main-header" id="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo-AVLW2LLWZkI8v845.png" alt="NayePankh Foundation Logo" class="logo-img">
+        <div class="logo-info">
+          <span class="logo-title">नए पंख</span>
+          <span class="logo-subtitle">NayePankh Foundation</span>
+        </div>
+      </a>
+      
+      <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about-us.html">About Us</a></li>
+          <li class="nav-item"><a href="our-certificates.html">Our Certificates</a></li>
+          <li class="nav-item active"><a href="newspaper-recognition.html">NewsPaper-Recognition</a></li>
+          <li class="nav-item"><a href="donate.html">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <script>
+      // Run after DOM is ready so the grid exists when we query it.
+      document.addEventListener('DOMContentLoaded', function() {
+        const grid = document.querySelector('.portfolio-grid');
+        if (!grid) return;
+        const items = Array.from(grid.querySelectorAll('.portfolio-item'));
+        if (items.length === 0) return;
+
+        const cols = 3; // desired columns per full row
+        const remainder = items.length % cols;
+        if (remainder === 0) return; // already full rows
+
+        grid.classList.add('center-last-row');
+        grid.classList.add('remainder-' + remainder);
+      });
+    </script>
+
+  <!-- Hero Section -->
+  <section class="hero-banner" style="background-image: url('assets/whatsapp-image-2023-02-05-at-9.13.06-am-mp8eQ9De2eHjvE3j.jpeg'); min-height: 50vh; padding: 160px 24px 80px;">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title" style="font-size: 3rem;">Media & Newspaper Recognition</h1>
+      <p class="hero-subtitle">Highlighted by leading publications for our on-ground efforts and campaigns.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section section-light">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-subtitle">NayePankh in News</span>
+        <h2 class="section-title">Press Coverage & Recognition</h2>
+        <p class="section-description">
+          Our initiatives have been covered extensively by regional and national press, raising awareness and bringing positive validation to the hard work of our student volunteers.
+        </p>
+      </div>
+
+      <!-- Modern Grid of Press Clippings -->
+      <div class="portfolio-grid">
+        <!-- Press Item 1 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/media-AR0ezRyVXqSaNNg2.jpeg" alt="Newspaper clipping 1" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Press Release</span>
+            <h3 class="portfolio-title">Community Food Drives</h3>
+          </div>
+        </div>
+
+        <!-- Press Item 2 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/whatsapp-image-2023-02-25-at-10.35.08-am-dJol0XQeLzhGa6op.jpeg" alt="Newspaper clipping 2" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Campaign Spotlight</span>
+            <h3 class="portfolio-title">Sanitary Napkins Distribution</h3>
+          </div>
+        </div>
+
+        <!-- Press Item 3 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/1__5__1620906574-AzGyREVZ7oI2qvEa.jpg" alt="Newspaper clipping 3" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">On Ground Feature</span>
+            <h3 class="portfolio-title">Student Power Revolution</h3>
+          </div>
+        </div>
+
+        <!-- Press Item 4 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/195418199_329666142078593_6826150489684246490_n_1622920354-mk3L72pPvKhpQZN0.jpg" alt="Newspaper clipping 4" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Dainik Jagran Coverage</span>
+            <h3 class="portfolio-title">Lockdown Relief Support</h3>
+          </div>
+        </div>
+
+        <!-- Press Item 5 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/1682903595951-AE0qV567r4uXNPwx.jpg" alt="Newspaper clipping 5" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Media Feature</span>
+            <h3 class="portfolio-title">Warm Clothes Drive</h3>
+          </div>
+        </div>
+
+        <!-- Press Item 6 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/1682903599535-A0x4k3kl9kukKzev.jpg" alt="Newspaper clipping 6" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">Social Impact Awards</span>
+            <h3 class="portfolio-title">Honored for NGO Service</h3>
+          </div>
+        </div>
+
+        <!-- Press Item 7 -->
+        <div class="portfolio-item">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/194833729_501933980860276_3042104886709034452_n_1622920383-AGBqjJk3xDSRO7Ba.jpg" alt="Newspaper clipping 7" class="portfolio-img">
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-category">City Feature</span>
+            <h3 class="portfolio-title">Youth Changing Kanpur Streets</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Footer -->
+  <footer class="main-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-brand-logo">
+          <img src="assets/logo-AVLW2LLWZkI8v845.png" alt="NayePankh Foundation Logo">
+          <h4 style="margin: 0; padding: 0; border: none;"> नए पंख</h4>
+        </div>
+        <p>A registered non-profit organization striving to provide food, education, clothes, and hygiene sanitation to the underprivileged communities in India.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/nayepankhfoundation" class="footer-social-icon instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/nayepankh" class="footer-social-icon linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@nayepankhfoundation" class="footer-social-icon youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com/nayepankhfoundation" class="footer-social-icon facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://twitter.com/nayepankh"
+          class="footer-social-icon twitter" aria-label="X">
+          <i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>NGO Operations</h4>
+        <ul class="footer-links">
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="our-certificates.html">Our Certificates</a></li>
+          <li><a href="newspaper-recognition.html">NewsPaper Recognition</a></li>
+          <li><a href="donate.html">Donate Campaign</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal Documents</h4>
+        <ul class="footer-links">
+          <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="cancellation-and-refund.html">Cancellation & Refund</a></li>
+          <li><a href="shipping-and-exchange-policy.html">Shipping & Exchange</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Get In Touch</h4>
+        <ul class="footer-links" style="color: var(--text-light-muted); font-size: 0.95rem;">
+          <li><i class="fa-solid fa-envelope" style="color: var(--primary); margin-right: 8px;"></i> <a href="mailto:contact@nayepankh.com">contact@nayepankh.com</a></li>
+          <li><i class="fa-solid fa-phone" style="color: var(--primary); margin-right: 8px;"></i> +91-8318500748</li>
+          <li><i class="fa-solid fa-location-dot" style="color: var(--primary); margin-right: 8px;"></i> 104A/279 P Road, Kanpur, UP, India</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        &copy; 2026 NayePankh Foundation. All Rights Reserved.
+      </div>
+      <div class="footer-tax-info">
+        <i class="fa-solid fa-shield-halved"></i> 80G & 12A Government Registered Non-Profit
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Header transparency on scroll
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile Navigation Toggle
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    mobileToggle.addEventListener('click', () => {
+      if (navMenu.style.display === 'flex') {
+        navMenu.style.display = 'none';
+      } else {
+        navMenu.style.display = 'flex';
+        navMenu.style.flexDirection = 'column';
+        navMenu.style.position = 'absolute';
+        navMenu.style.top = '100%';
+        navMenu.style.left = '0';
+        navMenu.style.width = '100%';
+        navMenu.style.background = 'rgba(19, 18, 17, 0.95)';
+        navMenu.style.padding = '20px';
+        navMenu.style.borderBottom = '1px solid rgba(255,255,255,0.08)';
+      }
+    });
+  </script>
+</body>
+</html>
